@@ -1,4 +1,4 @@
-(module AMASS_XT30UPB-F_1x02_P5.0mm_Vertical (layer F.Cu) (tedit 5C8E9B79)
+(module AMASS_XT30UPB-F_1x02_P5.0mm_Vertical (layer F.Cu) (tedit 5F461BF6)
   (descr "Connector XT30 Vertical PCB Female, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf")
   (tags "RC Connector XT30")
   (fp_text reference REF** (at 2.5 -4) (layer F.SilkS)
@@ -36,9 +36,9 @@
   )
   (pad 2 thru_hole circle (at 5 0) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+  (model ${KIPRJMOD}/ext/KICAD_LIB/footprints/XT30.pretty/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl
+    (offset (xyz 2.5 0 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz -90 0 180))
   )
 )
