@@ -1,4 +1,4 @@
-(module Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical (layer F.Cu) (tedit 5B7833F7)
+(module Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical (layer F.Cu) (tedit 5F498D38)
   (descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex SPOX side entry")
   (fp_text reference REF** (at 2.5 -4.3) (layer F.SilkS)
@@ -32,9 +32,9 @@
   (pad 3 thru_hole oval (at 5 0) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 2.5 0) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask))
   (pad 1 thru_hole roundrect (at 0 0) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.147059))
-  (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+  (model ${KIPRJMOD}/ext/KICAD_LIB/footprints/Dynamixel_AX.pretty/Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical.wrl
+    (offset (xyz 2.5 0.5 3))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz -90 0 -180))
   )
 )
