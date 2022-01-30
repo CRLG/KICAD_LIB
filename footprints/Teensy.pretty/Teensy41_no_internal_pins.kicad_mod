@@ -1,4 +1,4 @@
-(module Teensy41_no_internal_pins (layer F.Cu) (tedit 61F6EC74)
+(module Teensy41_no_internal_pins (layer F.Cu) (tedit 61F6FF47)
   (descr "Teensy41 without internal pins")
   (fp_text reference REF** (at 0 -10.16) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -22,6 +22,7 @@
   (fp_line (start 30.48 -5.08) (end 29.21 -5.08) (layer F.CrtYd) (width 0.15))
   (fp_line (start 29.21 -5.08) (end 29.21 5.08) (layer F.CrtYd) (width 0.15))
   (fp_line (start 29.21 5.08) (end 30.48 5.08) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 30.48 -5.08) (end 30.48 5.08) (layer F.CrtYd) (width 0.15))
   (pad 17 thru_hole circle (at 11.43 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 18 thru_hole circle (at 13.97 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 19 thru_hole circle (at 16.51 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
